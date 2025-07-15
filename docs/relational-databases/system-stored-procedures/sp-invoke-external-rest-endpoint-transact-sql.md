@@ -66,7 +66,7 @@ URL of the HTTPS REST endpoint to be called. *@url* is **nvarchar(4000)** with n
 
 #### [ @payload = ] N'*request_payload*'
 
-Unicode string in a JSON, XML, or TEXT format that contains the payload to send to the HTTPS REST endpoint. Payloads must be a valid JSON document, a well formed XML document, or text. *@payload* is **nvarchar(max)** with no default.
+The payload to send to the HTTPS REST endpoint. Must be a valid JSON document, a well formed XML document, or text. *@payload* is **nvarchar(max)** type with no default.
 
 #### [ @headers = ] N'*headers*'
 
